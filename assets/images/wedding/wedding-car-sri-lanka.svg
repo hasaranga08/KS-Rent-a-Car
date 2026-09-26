@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="wedBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a30"/>
+      <stop offset="50%" stop-color="#162b4d"/>
+      <stop offset="100%" stop-color="#0a1526"/>
+    </linearGradient>
+    <linearGradient id="goldRibbon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d99a26"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#d99a26"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#wedBg)"/>
+  <!-- Elegant Floral / Arch Motif -->
+  <path d="M 100 450 C 100 200, 700 200, 700 450" fill="none" stroke="#d99a26" stroke-width="2" opacity="0.3"/>
+  <circle cx="400" cy="200" r="160" fill="none" stroke="url(#goldRibbon)" stroke-width="1.5" opacity="0.4"/>
+  <!-- Wedding Car Silhouette -->
+  <g transform="translate(80, 100) scale(0.8)">
+    <path d="M 120 290 L 170 240 L 290 200 L 510 200 L 610 245 L 720 255 C 740 260 750 280 740 305 L 720 310 L 110 310 Z" fill="#ffffff"/>
+    <path d="M 300 206 L 400 206 L 400 245 L 235 245 Z" fill="#1e293b" opacity="0.8"/>
+    <path d="M 415 206 L 500 206 L 585 245 L 415 245 Z" fill="#1e293b" opacity="0.8"/>
+    <!-- Wedding Ribbon Bonnet Decoration -->
+    <path d="M 720 260 Q 640 250 510 200" stroke="url(#goldRibbon)" stroke-width="5" fill="none"/>
+    <path d="M 720 270 Q 640 260 510 200" stroke="#f8fafc" stroke-width="3" fill="none"/>
+    <circle cx="720" cy="265" r="12" fill="#d99a26"/>
+    <circle cx="210" cy="315" r="42" fill="#090d16" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="620" cy="315" r="42" fill="#090d16" stroke="#94a3b8" stroke-width="3"/>
+  </g>
+  <text x="400" y="420" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="24" font-weight="700" text-anchor="middle">Luxury Wedding Car Hire in Sri Lanka</text>
+  <text x="400" y="450" fill="#d99a26" font-family="-apple-system, sans-serif" font-size="15" text-anchor="middle">Ceremonies • Hotel Transfers • Bridal Party Transportation</text>
+</svg>

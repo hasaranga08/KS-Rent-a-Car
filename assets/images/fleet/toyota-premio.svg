@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a30"/>
+      <stop offset="60%" stop-color="#112543"/>
+      <stop offset="100%" stop-color="#060e1b"/>
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d99a26"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="wheelRim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="45%" stop-color="#334155"/>
+      <stop offset="85%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Studio Background -->
+  <rect width="800" height="480" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Studio Floor Grid & Lighting -->
+  <ellipse cx="400" cy="350" rx="360" ry="60" fill="#000000" opacity="0.6"/>
+  <ellipse cx="400" cy="350" rx="300" ry="25" fill="#d99a26" opacity="0.08"/>
+  <line x1="80" y1="365" x2="720" y2="365" stroke="#1e3a66" stroke-width="1" stroke-dasharray="8,6"/>
+
+  <!-- Top Badge / Category -->
+  <rect x="50" y="36" width="130" height="28" rx="14" fill="#1e3a66" stroke="#d99a26" stroke-width="1"/>
+  <text x="115" y="55" fill="#fce7b0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">PREMIUM SEDAN</text>
+
+  <!-- Sri Lanka Brand Mark -->
+  <text x="750" y="55" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="end">KS RENT A CAR SRI LANKA</text>
+
+  <!-- Vehicle Silhouette with Shadow -->
+  <g filter="url(#shadow)">
+    
+      <path d="M 120 290 L 170 240 L 290 200 L 510 200 L 610 245 L 720 255 C 740 260 750 280 740 305 L 720 310 L 110 310 C 95 310 90 295 120 290 Z" fill="url(#carGrad)" />
+      <path d="M 300 206 L 400 206 L 400 245 L 235 245 Z" fill="#0f172a" opacity="0.85" />
+      <path d="M 415 206 L 500 206 L 585 245 L 415 245 Z" fill="#0f172a" opacity="0.85" />
+      <!-- Chrome Window Trim -->
+      <path d="M 230 248 L 298 203 L 505 203 L 595 248 Z" fill="none" stroke="#e2e8f0" stroke-width="2" />
+    
+
+    <!-- Headlights & Taillights -->
+    <path d="M 720 265 L 740 270 L 735 285 L 715 280 Z" fill="#fef08a" opacity="0.9" />
+    <path d="M 115 265 L 105 272 L 108 288 L 122 285 Z" fill="#ef4444" opacity="0.9" />
+
+    <!-- Front & Rear Wheels -->
+    <!-- Rear Wheel -->
+    <circle cx="210" cy="315" r="46" fill="#090d16" stroke="#1e293b" stroke-width="4"/>
+    <circle cx="210" cy="315" r="30" fill="url(#wheelRim)"/>
+    <circle cx="210" cy="315" r="10" fill="#cbd5e1"/>
+    <!-- Front Wheel -->
+    <circle cx="620" cy="315" r="46" fill="#090d16" stroke="#1e293b" stroke-width="4"/>
+    <circle cx="620" cy="315" r="30" fill="url(#wheelRim)"/>
+    <circle cx="620" cy="315" r="10" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Model Title and Tagline -->
+  <text x="50" y="420" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">Toyota Premio</text>
+  <text x="50" y="445" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="14">Executive luxury, smooth ride & maximum comfort for touring Sri Lanka</text>
+  <text x="750" y="445" fill="#d99a26" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="end">srilankacarrents.com</text>
+</svg>

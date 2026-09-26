@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#0b1a30"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#d99a26" stroke-width="2" opacity="0.6"/>
+  <path d="M 10 40 L 16 30 L 26 24 L 42 24 L 50 30 L 56 32 C 58 33 58 36 56 38 L 54 40 Z" fill="#d99a26"/>
+  <circle cx="20" cy="42" r="5" fill="#ffffff" stroke="#0b1a30" stroke-width="2"/>
+  <circle cx="46" cy="42" r="5" fill="#ffffff" stroke="#0b1a30" stroke-width="2"/>
+  <text x="32" y="20" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="10" font-weight="900" text-anchor="middle">KS</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "KS Rent a Car Sri Lanka",
+  "description": "Reliable car rental in Sri Lanka. Self-drive, chauffeur-driven vehicles, wedding car hire, airport transfers, and long-term car hire across Sri Lanka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

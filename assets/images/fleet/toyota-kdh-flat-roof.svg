@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a30"/>
+      <stop offset="60%" stop-color="#112543"/>
+      <stop offset="100%" stop-color="#060e1b"/>
+    </linearGradient>
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d99a26"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="wheelRim" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="45%" stop-color="#334155"/>
+      <stop offset="85%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Studio Background -->
+  <rect width="800" height="480" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Studio Floor Grid & Lighting -->
+  <ellipse cx="400" cy="350" rx="360" ry="60" fill="#000000" opacity="0.6"/>
+  <ellipse cx="400" cy="350" rx="300" ry="25" fill="#d99a26" opacity="0.08"/>
+  <line x1="80" y1="365" x2="720" y2="365" stroke="#1e3a66" stroke-width="1" stroke-dasharray="8,6"/>
+
+  <!-- Top Badge / Category -->
+  <rect x="50" y="36" width="130" height="28" rx="14" fill="#1e3a66" stroke="#d99a26" stroke-width="1"/>
+  <text x="115" y="55" fill="#fce7b0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="1">PASSENGER VAN</text>
+
+  <!-- Sri Lanka Brand Mark -->
+  <text x="750" y="55" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12" font-weight="600" text-anchor="end">KS RENT A CAR SRI LANKA</text>
+
+  <!-- Vehicle Silhouette with Shadow -->
+  <g filter="url(#shadow)">
+    
+      <path d="M 110 315 L 120 200 L 180 165 L 660 165 L 710 210 L 735 270 C 745 295 735 315 715 315 Z" fill="url(#carGrad)" />
+      <!-- Side Windows -->
+      <rect x="200" y="177" width="130" height="60" rx="4" fill="#0f172a" opacity="0.85" />
+      <rect x="345" y="177" width="140" height="60" rx="4" fill="#0f172a" opacity="0.85" />
+      <rect x="500" y="177" width="140" height="60" rx="4" fill="#0f172a" opacity="0.85" />
+      <path d="M 650 179 L 695 210 L 650 210 Z" fill="#0f172a" opacity="0.85" />
+    
+
+    <!-- Headlights & Taillights -->
+    <path d="M 720 265 L 740 270 L 735 285 L 715 280 Z" fill="#fef08a" opacity="0.9" />
+    <path d="M 115 265 L 105 272 L 108 288 L 122 285 Z" fill="#ef4444" opacity="0.9" />
+
+    <!-- Front & Rear Wheels -->
+    <!-- Rear Wheel -->
+    <circle cx="210" cy="315" r="46" fill="#090d16" stroke="#1e293b" stroke-width="4"/>
+    <circle cx="210" cy="315" r="30" fill="url(#wheelRim)"/>
+    <circle cx="210" cy="315" r="10" fill="#cbd5e1"/>
+    <!-- Front Wheel -->
+    <circle cx="620" cy="315" r="46" fill="#090d16" stroke="#1e293b" stroke-width="4"/>
+    <circle cx="620" cy="315" r="30" fill="url(#wheelRim)"/>
+    <circle cx="620" cy="315" r="10" fill="#cbd5e1"/>
+  </g>
+
+  <!-- Model Title and Tagline -->
+  <text x="50" y="420" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.5">Toyota KDH Flat Roof</text>
+  <text x="50" y="445" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="14">Ideal for group tours, family holidays and airport passenger transfers</text>
+  <text x="750" y="445" fill="#d99a26" font-family="-apple-system, sans-serif" font-size="13" font-weight="600" text-anchor="end">srilankacarrents.com</text>
+</svg>

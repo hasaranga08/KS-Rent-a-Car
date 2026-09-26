@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#07152b"/>
+      <stop offset="50%" stop-color="#0f2b57"/>
+      <stop offset="100%" stop-color="#1e3a66"/>
+    </linearGradient>
+    <linearGradient id="hillGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0e3a2f"/>
+      <stop offset="100%" stop-color="#061c16"/>
+    </linearGradient>
+    <linearGradient id="hillGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="100%" stop-color="#052e16"/>
+    </linearGradient>
+    <linearGradient id="roadGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <!-- Night / Twilight Sky with Warm Horizon -->
+  <rect width="1200" height="700" fill="url(#skyGrad)"/>
+  <circle cx="950" cy="180" r="70" fill="#fef08a" opacity="0.15"/>
+  <circle cx="950" cy="180" r="45" fill="#ffffff" opacity="0.9"/>
+  <!-- Mountain Silhouette (Sri Lankan Central Highlands) -->
+  <path d="M 0 420 Q 250 220 500 360 T 1000 300 L 1200 380 L 1200 700 L 0 700 Z" fill="url(#hillGrad1)" opacity="0.8"/>
+  <path d="M 0 460 Q 300 320 650 420 T 1200 390 L 1200 700 L 0 700 Z" fill="url(#hillGrad2)"/>
+  <!-- Tropical Palm Tree Silhouettes -->
+  <path d="M 120 480 Q 130 400 170 320 Q 220 310 240 330 M 170 320 Q 190 280 230 290 M 170 320 Q 140 270 120 290 M 170 320 Q 110 320 100 350 M 170 320 Q 130 360 140 380" stroke="#052e16" stroke-width="5" fill="none"/>
+  <path d="M 1050 480 Q 1030 380 980 300 Q 940 290 920 310 M 980 300 Q 960 260 920 270 M 980 300 Q 1010 250 1030 270 M 980 300 Q 1040 300 1050 330" stroke="#052e16" stroke-width="5" fill="none"/>
+  <!-- Scenic Coastal & Highway Road Curve -->
+  <path d="M 200 700 L 480 500 L 600 500 L 1050 700 Z" fill="url(#roadGrad)"/>
+  <path d="M 540 500 L 625 700" stroke="#d99a26" stroke-width="4" stroke-dasharray="25,18"/>
+  <!-- Premium KS Vehicle on Road -->
+  <g transform="translate(420, 440) scale(0.65)">
+    <path d="M 120 290 L 170 240 L 290 200 L 510 200 L 610 245 L 720 255 C 740 260 750 280 740 305 L 720 310 L 110 310 Z" fill="#e2e8f0"/>
+    <circle cx="210" cy="315" r="38" fill="#090d16"/>
+    <circle cx="620" cy="315" r="38" fill="#090d16"/>
+    <!-- Headlights glow on road -->
+    <polygon points="720,270 1000,240 1050,380 720,290" fill="#fef08a" opacity="0.25"/>
+  </g>
+  <!-- Overlay Banner Details -->
+  <rect x="0" y="620" width="1200" height="80" fill="#060e1b" opacity="0.75"/>
+  <text x="60" y="665" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="20" font-weight="700">KS Rent a Car Sri Lanka • Reliable Vehicle Hire Across The Island</text>
+  <text x="1140" y="665" fill="#d99a26" font-family="-apple-system, sans-serif" font-size="16" font-weight="600" text-anchor="end">WhatsApp: +94 77 719 3915</text>
+</svg>
