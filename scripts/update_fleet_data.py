@@ -309,7 +309,7 @@ fleet_tiles_html = """        <!-- Sedans Category -->
             <!-- Toyota KDH -->
             <article class="fleet-tile">
               <div class="fleet-tile-media">
-                <img src="../assets/images/fleet/toyota-kdh.jpg" alt="Toyota KDH Passenger Van Rental Sri Lanka" loading="lazy" width="600" height="380">
+                <img src="../assets/images/fleet/toyota-kdh-1.jpg" alt="Toyota KDH Passenger Van Rental Sri Lanka" loading="lazy" width="600" height="380">
                 <span class="fleet-tile-badge">Passenger Van (9–14 Seats)</span>
               </div>
               <div class="fleet-tile-body">
