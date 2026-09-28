@@ -1440,9 +1440,58 @@ p:last-child {
   margin-bottom: 3.5rem;
 }
 
-.footer-brand .brand-name {
-  color: #ffffff;
+/* Site Footer Branding - Consistent Brand Logo & Typography */
+.footer-brand {
+  margin-bottom: 0.5rem;
 }
+
+.site-footer .brand,
+.footer-brand .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  flex-shrink: 0;
+  margin-bottom: 0.85rem;
+}
+
+.site-footer .brand-logo,
+.footer-brand .brand-logo {
+  height: 42px;
+  width: auto;
+  max-width: 48px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  border-radius: var(--radius-sm);
+}
+
+.site-footer .brand-text,
+.footer-brand .brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer .brand-name,
+.footer-brand .brand-name {
+  color: #ffffff !important;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.site-footer .brand-tagline,
+.footer-brand .brand-tagline {
+  display: block !important;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-accent) !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
 
 .footer-desc {
   font-size: 0.92rem;
@@ -1451,7 +1500,56 @@ p:last-child {
   line-height: 1.6;
 }
 
-.footer-heading {
+
+/* Global Footer Headings - Ensure all headings in all footers are clearly white */
+.site-footer h2,
+.site-footer h3,
+.site-footer h4,
+.site-footer h5,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5,
+.footer-col h2,
+.footer-col h3,
+.footer-col h4,
+.footer-col h5,
+.footer-heading,
+.footer-title {
+  color: #ffffff !important;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+.site-footer h2::after,
+.site-footer h3::after,
+.site-footer h4::after,
+footer h2::after,
+footer h3::after,
+footer h4::after,
+.footer-col h2::after,
+.footer-col h3::after,
+.footer-col h4::after,
+.footer-heading::after,
+.footer-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 32px;
+  height: 2px;
+  background-color: var(--color-accent);
+}
+
+.footer-heading-orig {
   color: #ffffff;
   font-size: 1.1rem;
   margin-bottom: 1.25rem;

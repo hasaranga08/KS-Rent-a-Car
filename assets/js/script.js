@@ -5,6 +5,27 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+  // Resilient Brand Logo Fallback for GitHub Pages & custom domains
+  const brandLogos = document.querySelectorAll("img.brand-logo");
+  brandLogos.forEach(img => {
+    img.addEventListener("error", function onLogoError() {
+      if (!this.dataset.retryIndex) this.dataset.retryIndex = "0";
+      const idx = parseInt(this.dataset.retryIndex, 10);
+      const candidates = [
+        "assets/images/Logo.png",
+        "../assets/images/Logo.png",
+        "../../assets/images/Logo.png",
+        "assets/images/logo.png",
+        "../assets/images/logo.png",
+        "../../assets/images/logo.png"
+      ];
+      if (idx < candidates.length) {
+        this.dataset.retryIndex = String(idx + 1);
+        this.src = candidates[idx];
+      }
+    });
+  });
+
   // Dynamic Sticky Navigation on Scroll
   const siteHeader = document.querySelector(".site-header");
   if (siteHeader) {

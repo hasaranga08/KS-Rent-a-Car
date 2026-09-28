@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: "./",
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
@@ -54,6 +55,7 @@ export default defineConfig(() => {
           fleetKdh: path.resolve(__dirname, 'fleet/toyota-kdh/index.html'),
           fleetKdhFlat: path.resolve(__dirname, 'fleet/toyota-kdh-flat-roof/index.html'),
           fleetKdhHigh: path.resolve(__dirname, 'fleet/toyota-kdh-high-roof/index.html'),
+          fleetToyotaHighRoof: path.resolve(__dirname, 'fleet/toyota-high-roof/index.html'),
           fleetNV300: path.resolve(__dirname, 'fleet/nissan-nv300/index.html'),
           fleetCaravan: path.resolve(__dirname, 'fleet/nissan-caravan/index.html'),
         },
