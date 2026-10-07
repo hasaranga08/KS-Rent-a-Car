@@ -11,7 +11,7 @@ A clean, modern, mobile-first, and responsive static website for **KS Rent a Car
   - `index.html`: Homepage featuring hero banner, quick quote finder, popular fleet, services, trust badges, FAQ preview, and enquiry form.
   - `vehicles.html`: Detailed vehicle catalog featuring Toyota Premio, Allion 260/240, Honda Vezel, Toyota IST, Suzuki WagonR, Toyota Raize, Toyota KDH (Flat & High Roof), and Honda Fit.
   - `services.html`: Self-drive, Chauffeur-driven, Airport transfers, Long-term & Short-term rentals, and Tourist transportation.
-  - `wedding-car-hire.html`: Dedicated wedding car packages, luxury sedans, and guest vans.
+  - `wedding-car-hire-sri-lanka/`: Dedicated wedding car packages, luxury sedans, and guest vans.
   - `about.html`: Company overview, standards, and islandwide delivery coverage.
   - `faq.html`: 12 comprehensive questions and answers with Schema.org `FAQPage` structured data.
   - `contact.html`: Contact directory, business information, and enquiry form.
