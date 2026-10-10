@@ -1682,6 +1682,10 @@ footer h4::after,
   padding: 0.4rem;
 }
 
+.mobile-nav-drawer > li {
+  display: none !important;
+}
+
 .mobile-nav-links {
   list-style: none;
   display: flex;
