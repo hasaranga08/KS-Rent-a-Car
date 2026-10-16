@@ -43,8 +43,8 @@ Place high-resolution photos of your fleet in `assets/images/vehicles/` using th
 - `toyota-ist.jpg`
 - `suzuki-wagon-r.jpg`
 - `toyota-raize.jpg`
-- `toyota-kdh-flat-roof.jpg`
-- `toyota-kdh-high-roof.jpg`
+- `toyota-kdh.jpg`
+- `toyota-high-roof.jpg`
 - `honda-fit.jpg`
 
 ---
